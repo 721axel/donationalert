@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "donationalerts",
+  "version": "${version}",
+  "name": "Donation Alerts",
+  "description": "Stream-style donation alerts and a top-donor leaderboard. Bigger donations get bigger animations.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.donationalerts.DonationAlertsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
